@@ -1,2 +1,2 @@
-#!/usr/env/env ruby
+#!/usr/bin/env ruby
 School
