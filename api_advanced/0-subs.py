@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """Queries Reddit API and returns subscriber count of a subreddit."""
-
 import requests
 
 
