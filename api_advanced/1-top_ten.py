@@ -9,7 +9,7 @@ def top_ten(subreddit):
     headers = {"User-Agent": "python3:alu-api:v1.0 (by /u/Web_Dev_24)"}
     response = requests.get(url, headers=headers, allow_redirects=False)
     if response.status_code != 200:
-        print(None)
+        print("Ok")
         return
     posts = response.json().get("data").get("children")
     for post in posts[:10]:
