@@ -4,7 +4,6 @@ Queries the Reddit API.
 returns the number of subscribers
 for a given subreddit.
 """
-
 import requests
 
 
