@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""
+""" Reddit API
 Queries the Reddit API.
 returns the number of subscribers
 for a given subreddit.
