@@ -8,7 +8,7 @@ def top_ten(subreddit):
     """Print the titles of the first 10 hot posts."""
     url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=10"
     headers = {
-        "User-Agent": "python:api_advanced:v1.0 (by /u/anonymous)"
+        "User-Agent": "python:api_advanced:v1.0 (by /u/Web_Dev_24)"
     }
 
     try:
